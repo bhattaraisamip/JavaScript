@@ -1,10 +1,10 @@
  //node basic_js/conversionOperation.js
-//  let score = "samnip"
+let score = "samnip"
 
 // console.log(typeof score);
 // console.log(typeof(score));
 
-// let valueInNumber = Number(score)
+ let valueInNumber = Number(score)
 // console.log(typeof valueInNumber);
 // console.log(valueInNumber);
 
@@ -15,8 +15,14 @@
 let isLoggedIn = "samip"
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn);
+//console.log(booleanIsLoggedIn);
 
 // 1 => true; 0 => false
 // "" => false
 //"samip" => true (valueInsideTheStringIsTrue)
+
+let someNumber = 45
+
+let stringNumber = String(someNumber)
+console.log(stringNumber);
+console.log(typeof stringNumber);
