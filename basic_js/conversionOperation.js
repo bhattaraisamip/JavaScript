@@ -1,4 +1,4 @@
-let score = "samnip"
+let score = "samip"
 
 // console.log(typeof score);
 // console.log(typeof(score));
